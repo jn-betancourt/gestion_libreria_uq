@@ -18,6 +18,8 @@ public class Biblioteca implements Prestamo{
     
     public Biblioteca(){
         this.libros = new ArrayList<>();
+        this.prestados = new ArrayList<>();
+        this.prestamos = new ArrayList<>();
     }
     
     public Biblioteca(Collection<Libro> libros){
